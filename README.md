@@ -69,6 +69,9 @@ Note: the data below is related to the accuracy of high risk loans. Although the
 
 # Summary:
 
+<img width="599" alt="Screen Shot 2021-08-17 at 11 46 12 PM" src="https://user-images.githubusercontent.com/82424250/129838482-2d5c58cb-14bd-451a-8520-25a7217e14fe.png">
+
+
 <img width="808" alt="Screen Shot 2021-08-17 at 11 45 06 PM" src="https://user-images.githubusercontent.com/82424250/129838394-5919969e-3cc2-405f-8436-5bd3872ed945.png">
 
 <img width="450" alt="Screen Shot 2021-08-17 at 10 08 34 PM" src="https://user-images.githubusercontent.com/82424250/129830662-b4b9a4b3-54e9-432b-8ed7-9cd7f5e25c47.png">
