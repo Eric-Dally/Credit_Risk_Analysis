@@ -1,2 +1,25 @@
-# Credit_Risk_Analysis
-Using Machine Learning to build a model to predict Credit Risk
+# Overview of the loan prediction risk analysis:
+
+The purpose of this analysis is well defined (4 pt)
+
+# Results:
+
+There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
+
+<img width="737" alt="Screen Shot 2021-08-17 at 7 49 03 PM" src="https://user-images.githubusercontent.com/82424250/129819968-da862794-7015-419b-9f2c-9d1d87d1c3b5.png">
+
+<img width="731" alt="Screen Shot 2021-08-17 at 7 49 36 PM" src="https://user-images.githubusercontent.com/82424250/129819972-f34ffd12-0846-4433-b44d-6e5dcf54d56a.png">
+
+<img width="721" alt="Screen Shot 2021-08-17 at 7 50 17 PM" src="https://user-images.githubusercontent.com/82424250/129819981-6fda0acc-e82f-46e1-98c3-44387e868680.png">
+
+<img width="722" alt="Screen Shot 2021-08-17 at 7 50 45 PM" src="https://user-images.githubusercontent.com/82424250/129819995-07d69f7f-cee8-426c-9d3c-244e4afb264f.png">
+
+<img width="736" alt="Screen Shot 2021-08-17 at 7 52 15 PM" src="https://user-images.githubusercontent.com/82424250/129820003-0cb2c1fb-6319-4ce0-9064-379162db4518.png">
+
+<img width="722" alt="Screen Shot 2021-08-17 at 7 58 31 PM" src="https://user-images.githubusercontent.com/82424250/129820016-2df32c2d-0bc9-45af-b7ee-5ad721300c4e.png">
+
+
+# Summary:
+
+There is a summary of the results (2 pt)
+There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
