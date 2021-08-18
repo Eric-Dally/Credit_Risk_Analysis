@@ -6,9 +6,11 @@ The purpose of this project is test different machine learning models to analyze
 
 ### RandomOversampler Algorithm:
 
-* Notes:
 * Accuracy Score: 0.67
 * F-score Avg : 0.75
+* Precision Avg: 0.99
+* Recall Avg: 0.61
+* Accuracy is poor, F-score is poor, Precision is good, and recall is poor.
 
 <img width="737" alt="Screen Shot 2021-08-17 at 7 49 03 PM" src="https://user-images.githubusercontent.com/82424250/129819968-da862794-7015-419b-9f2c-9d1d87d1c3b5.png">
 
@@ -17,6 +19,9 @@ The purpose of this project is test different machine learning models to analyze
 * Summary Notes:
 * Accuracy Score: 0.66
 * F-score Avg : 0.81
+* Precision Avg: 0.99
+* Recall Avg: 0.69
+* Accuracy is poor, F-score is poor, Precision is good, and recall is poor. However, results are better than the RandomOversampler Algorithm.
 
 <img width="731" alt="Screen Shot 2021-08-17 at 7 49 36 PM" src="https://user-images.githubusercontent.com/82424250/129819972-f34ffd12-0846-4433-b44d-6e5dcf54d56a.png">
 
@@ -25,6 +30,9 @@ The purpose of this project is test different machine learning models to analyze
 * Notes:
 * Accuracy Score: 0.57
 * F-score Avg : 0.73
+* Precision Avg: 0.99
+* Recall Avg: 0.58
+* Accuracy is poor, F-score is poor, Precision is good, and recall is poor. With a recall close to 50 percent, these were the worst. 
 
 <img width="721" alt="Screen Shot 2021-08-17 at 7 50 17 PM" src="https://user-images.githubusercontent.com/82424250/129819981-6fda0acc-e82f-46e1-98c3-44387e868680.png">
 
@@ -33,6 +41,9 @@ The purpose of this project is test different machine learning models to analyze
 * Notes:
 * Accuracy Score: 0.66
 * F-score Avg : 0.81
+* Precision Avg: 0.99
+* Recall Avg: 0.69
+* Accuracy and F-score are improved, but the recall is still to low to reliable detect high risk loans. 
 
 <img width="722" alt="Screen Shot 2021-08-17 at 7 50 45 PM" src="https://user-images.githubusercontent.com/82424250/129819995-07d69f7f-cee8-426c-9d3c-244e4afb264f.png">
 
@@ -41,6 +52,10 @@ The purpose of this project is test different machine learning models to analyze
 * Notes:
 * Accuracy Score: 0.79
 * F-score Avg : 0.93
+* Precision Avg: 0.99
+* Recall Avg: 0.87
+* Accuracy is good, F-score is great, precision is good, and recall is more reliable. 
+* total_rec_prncp, total payment, total payment invoice, total_rec_int, last payment amount, and interest rate were the biggest factors contributing to whether the client was considered low/high risk for credit card loans.
 
 <img width="736" alt="Screen Shot 2021-08-17 at 7 52 15 PM" src="https://user-images.githubusercontent.com/82424250/129820003-0cb2c1fb-6319-4ce0-9064-379162db4518.png">
 
@@ -49,6 +64,9 @@ The purpose of this project is test different machine learning models to analyze
 * Notes:
 * Accuracy Score: 0.93
 * F-score Avg : 0.97
+* Precision Avg: 0.99
+* Recall Avg: 0.94
+* This algorithm had the best results. Although a 94% recall is more improved than the other models, it is still low from a risk perspective. 
 
 <img width="722" alt="Screen Shot 2021-08-17 at 7 58 31 PM" src="https://user-images.githubusercontent.com/82424250/129820016-2df32c2d-0bc9-45af-b7ee-5ad721300c4e.png">
 
