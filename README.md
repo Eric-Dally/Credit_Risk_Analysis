@@ -16,7 +16,6 @@ The purpose of this project is test different machine learning models to analyze
 
 ### SMOTE Oversampler Algorithm:
 
-* Summary Notes:
 * Accuracy Score: 0.66
 * F-score Avg : 0.81
 * Precision Avg: 0.99
@@ -27,7 +26,6 @@ The purpose of this project is test different machine learning models to analyze
 
 ### Cluster Centroids Sampling Algorithm:
 
-* Notes:
 * Accuracy Score: 0.57
 * F-score Avg : 0.73
 * Precision Avg: 0.99
@@ -38,18 +36,16 @@ The purpose of this project is test different machine learning models to analyze
 
 ### Over and Undersampling using the SMOTEENN Sampling Algorithm:
 
-* Notes:
 * Accuracy Score: 0.66
 * F-score Avg : 0.81
 * Precision Avg: 0.99
 * Recall Avg: 0.69
-* Accuracy and F-score are improved, but the recall is still to low to reliable detect high risk loans. 
+* Accuracy and F-score are improved, but the recall is still to low. 
 
 <img width="722" alt="Screen Shot 2021-08-17 at 7 50 45 PM" src="https://user-images.githubusercontent.com/82424250/129819995-07d69f7f-cee8-426c-9d3c-244e4afb264f.png">
 
 ### BalancedRandomForest Ensemble Algorithm:
 
-* Notes:
 * Accuracy Score: 0.79
 * F-score Avg : 0.93
 * Precision Avg: 0.99
@@ -61,19 +57,24 @@ The purpose of this project is test different machine learning models to analyze
 
 ### Easy Ensemble AdaBoost Ensemble Algorithm:
 
-* Notes:
 * Accuracy Score: 0.93
 * F-score Avg : 0.97
 * Precision Avg: 0.99
 * Recall Avg: 0.94
-* This algorithm had the best results. Although a 94% recall is more improved than the other models, it is still low from a risk perspective. 
+* This algorithm had the best results. The 94% recall is by far the highest among all the models. 
 
 <img width="722" alt="Screen Shot 2021-08-17 at 7 58 31 PM" src="https://user-images.githubusercontent.com/82424250/129820016-2df32c2d-0bc9-45af-b7ee-5ad721300c4e.png">
 
 
 # Summary:
 
-Please note that the data was unabalance (high amounts of low risk data and low amounts of high risk data). This was a problem because, in loan default cases, it is more important to identify the high risk loans than the low risk loans. High risk loans cost the credit card company money. That being said, I balanced the data using different methods which resulted in different results. 
+<img width="450" alt="Screen Shot 2021-08-17 at 10 08 34 PM" src="https://user-images.githubusercontent.com/82424250/129830662-b4b9a4b3-54e9-432b-8ed7-9cd7f5e25c47.png">
+
+When evaluating loans precision is the most important metric. I would rather have a slightly less accurate model with higher precision than a more accurate model with lower precision. The reason being, it is better to identify a low risk loan as high risk than identify a high risk loan as low risk (i.e., having a low false positive rate). If a high risk loan is labeled as low risk, the bank will likely lose money. On the contrary, if a low risk loan is labeled as high risk, the bank may annoy their customer but will not risk losing money on a defaulted loan. This is not to say that other metrics are not important as they are still key in comparing different models; however, precision carries more weight in this specific situation. That being said, all the models had the same precision score of 99% forcing me to use different metrics to pick the best model. 
+
+Based on my results, the Easy Ensemble AdaBoost Ensemble Algorithm was the best model. It had the highest Accuracy Score (93%), F-score (97%), precision (99%), and recall 94%. 
+
+
 
 There is a summary of the results (2 pt)
 There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
