@@ -4,8 +4,6 @@ The purpose of this project is test different machine learning models to analyze
 
 # Results:
 
-Please note that the data was unabalance (high amounts of low risk data and low amounts of high risk data). This was a problem because, in loan default cases, it is more important to identify the high risk loans than the low risk loans. High risk loans cost the credit card company money. That being said, I balanced the data using different methods which resulted in different results. 
-
 ### RandomOversampler Algorithm:
 
 * Notes:
@@ -56,6 +54,8 @@ Please note that the data was unabalance (high amounts of low risk data and low 
 
 
 # Summary:
+
+Please note that the data was unabalance (high amounts of low risk data and low amounts of high risk data). This was a problem because, in loan default cases, it is more important to identify the high risk loans than the low risk loans. High risk loans cost the credit card company money. That being said, I balanced the data using different methods which resulted in different results. 
 
 There is a summary of the results (2 pt)
 There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
