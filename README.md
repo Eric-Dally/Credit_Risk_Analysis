@@ -2,7 +2,10 @@
 
 The purpose of this project is test different machine learning models to analyze credit card risk. By importing the imbalanced-learn and scikit-learn libraries, I was able to explore how oversampling, undersampling, SMOTE, SMOTEENN, balanced random forest, and Easy Ensemble AdaBoost models fit the data. Because the data was unbalanced (more low risk data than high risk data), I had to build and evaluate models using resampling. With these machine learning tools I was able to determine whether someone is at high risk of defaulting on their credit card loans. 
 
+
+
 # Results:
+
 
 Note: the data below is related to the accuracy of high risk loans. Although the low risk loan data is more accurate, in this paticular case, analyzing the high risk data is more important because it is directly related to loan defaults. 
 
@@ -69,12 +72,8 @@ Note: the data below is related to the accuracy of high risk loans. Although the
 
 # Summary:
 
-<img width="599" alt="Screen Shot 2021-08-17 at 11 46 12 PM" src="https://user-images.githubusercontent.com/82424250/129838482-2d5c58cb-14bd-451a-8520-25a7217e14fe.png">
-
 
 <img width="808" alt="Screen Shot 2021-08-17 at 11 45 06 PM" src="https://user-images.githubusercontent.com/82424250/129838394-5919969e-3cc2-405f-8436-5bd3872ed945.png">
-
-<img width="450" alt="Screen Shot 2021-08-17 at 10 08 34 PM" src="https://user-images.githubusercontent.com/82424250/129830662-b4b9a4b3-54e9-432b-8ed7-9cd7f5e25c47.png">
 
 When evaluating high risk loans, recall is the most important metric. I would rather have a slightly less accurate model with higher recall than a more accurate model with lower recall. The reason being, it is better to identify a low risk loan as high risk than identify a high risk loan as low risk (i.e., having less false negatives than false positives). If a high risk loan is labeled as low risk, the bank will likely lose money; however, if a low risk loan is labeled as high risk, the bank may annoy their customer but will not risk losing money on a defaulted loan. This is not to say that other metrics are not important as they are still key in comparing different models, but recall carries more weight in this specific situation.  
 
