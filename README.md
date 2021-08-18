@@ -16,7 +16,7 @@ The purpose of this project is test different machine learning models to analyze
 
 <img width="721" alt="Screen Shot 2021-08-17 at 7 50 17 PM" src="https://user-images.githubusercontent.com/82424250/129819981-6fda0acc-e82f-46e1-98c3-44387e868680.png">
 
-### Over and Undersampling using the SMOTEENN Sampling Algorithm
+### Over and Undersampling using the SMOTEENN Sampling Algorithm:
 
 <img width="722" alt="Screen Shot 2021-08-17 at 7 50 45 PM" src="https://user-images.githubusercontent.com/82424250/129819995-07d69f7f-cee8-426c-9d3c-244e4afb264f.png">
 
