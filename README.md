@@ -4,11 +4,11 @@ The purpose of this project is test different machine learning models to analyze
 
 # Results:
 
-### RandomOversampler Sampling Algorithm:
+### RandomOversampler Algorithm:
 
 <img width="737" alt="Screen Shot 2021-08-17 at 7 49 03 PM" src="https://user-images.githubusercontent.com/82424250/129819968-da862794-7015-419b-9f2c-9d1d87d1c3b5.png">
 
-### SMOTE Oversampler Sampling Algorithm:
+### SMOTE Oversampler Algorithm:
 
 <img width="731" alt="Screen Shot 2021-08-17 at 7 49 36 PM" src="https://user-images.githubusercontent.com/82424250/129819972-f34ffd12-0846-4433-b44d-6e5dcf54d56a.png">
 
