@@ -1,6 +1,6 @@
 # Overview of the loan prediction risk analysis:
 
-The purpose of this analysis is well defined (4 pt)
+The purpose of this project is test different machine learning models to analyze credit card risk. By importing the imbalanced-learn and scikit-learn libraries, I was able to explore how oversampling, undersampling, SMOTE, SMOTEENN, balanced random forest, and Easy Ensemble AdaBoost models fit the data. With these machine learning tools I was able to determine whether someone is at high risk of defaulting on their credit card loans. 
 
 # Results:
 
