@@ -6,6 +6,13 @@ The purpose of this project is test different machine learning models to analyze
 
 ### RandomOversampler Algorithm:
 
+* Worst results
+* Accuracy Score : 0.5295 -- the worst
+* Did a slightly better than 50% for credit risk prediction
+* F-score
+    Avg : 0.56
+* high-risk prediction : 0.01 -- very poor
+
 <img width="737" alt="Screen Shot 2021-08-17 at 7 49 03 PM" src="https://user-images.githubusercontent.com/82424250/129819968-da862794-7015-419b-9f2c-9d1d87d1c3b5.png">
 
 ### SMOTE Oversampler Algorithm:
